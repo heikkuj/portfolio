@@ -3,10 +3,11 @@ import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
 import ContainerL from "@/components/container-left";
+import ProgressBar from "@/components/progress-bar";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-full">
       <main>
 
         <Header />
@@ -23,10 +24,17 @@ export default function Home() {
             <p>Her kan det være en liste over språk, frameworks, osv.</p>
 
             <ul className="flex flex-col items-end">
-              <li className="pt-4">HTML</li>
-              <li className="pt-4">CSS</li>
-              <li className="pt-4">Tailwind CSS</li>
-              <li className="pt-4">JavaScript</li>
+              <li className="pt-4">HTML ⁙</li>
+              <ProgressBar />
+
+              <li className="pt-4">CSS ⁘</li>
+              <ProgressBar />
+
+              <li className="pt-4">Tailwind CSS ⁙</li>
+              <ProgressBar />
+
+              <li className="pt-4">JavaScript ⁘</li>
+              <ProgressBar />
             </ul>
 
           </ContainerR>

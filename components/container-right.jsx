@@ -6,6 +6,7 @@ export default function ContainerR({children, title}) {
 
         <h1 className="font-semibold text-lg text-white place-self-end">{title}</h1>
         <div className='text-right'>
+        <div className='my-2 place-self-end h-[1px] w-[50%] bg-amber-800' />
         {children}
         </div>
     </div>

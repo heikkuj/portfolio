@@ -7,6 +7,22 @@
   --color-primary-4: #4d2700;
 }
 
-body {
+:root {
   background-color: #f9f7f3;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #8f3717;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffeccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fa9e00;
 }
