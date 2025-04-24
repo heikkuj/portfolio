@@ -17,7 +17,13 @@ export default function Home() {
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
 
-          <p className="px-4 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p>
+          {/* <p className="px-4 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p> */}
+
+          <p className="p-2 text-sm text-justify">Hei!  </p>
+          <p className="p-2 text-sm text-justify">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
+          <p className="p-2 text-sm text-justify">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
+          <p className="p-2 text-sm text-justify">Vi høres!  </p>
+
 
           </ContainerFill>
         </div>
