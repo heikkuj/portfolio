@@ -1,7 +1,7 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-import ContainerL from "@/components/container-left";
+// import ContainerL from "@/components/container-left";
 import ProgressBar from "@/components/progress-bar";
 import ContainerFill from "@/components/container-fill";
 import ContactBtn from "@/components/contact-btn";
@@ -61,8 +61,7 @@ export default function Home() {
         </div>
 
         <div className="my-15">
-          <ContainerR title='Tidligere erfaringer'>
-            <p>Dette kan f.eks. være en liste over tidligere arbeidsforhold.</p>
+          <ContainerR title='Erfaringer'>
             <p>Kurs innen IT</p>
             <p>Kundeservice</p>
             <ul>

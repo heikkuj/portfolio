@@ -8,16 +8,16 @@ export default function Navbar() {
   return (
     <div>
         {/* Main nav */}
-        <div className='flex p-2 justify-self-end w-[70vw] bg-primary-2 justify-evenly rounded-l-lg text-black font-semibold'>
+        <div className='flex p-2 justify-self-end w-[70vw] bg-primary-2 justify-evenly rounded-l-lg text-black text-md font-extralight'>
 
             <Link href='/'>
-            <div className='text-lg'>CV</div></Link>
+            <div className=''>CV</div></Link>
 
             <Link href='/'>
-            <div className='text-lg'>Prosjekter</div></Link>
+            <div className=''>Prosjekter</div></Link>
 
-            <Link target='_blank' href='mailto:heikkuamo@gmail.com'>
-            <div className='text-lg'>Kontakt</div></Link>
+            <Link target='_blank' href='mailto:heikku.jensen@outlook.com'>
+            <div className=''>Kontakt</div></Link>
         </div>
 
         {/* Socials */}
