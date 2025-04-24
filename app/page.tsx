@@ -17,14 +17,13 @@ export default function Home() {
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
 
-          <p className="px-2 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p>
+          <p className="px-4 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p>
 
           </ContainerFill>
         </div>
 
-        <div>
-          <ContainerR title='Kompetanse'>
-            <p>Her kan det være en liste over språk, frameworks, osv.</p>
+        <div className="my-15">
+          <ContainerR title='Frontend'>
 
             <ul className="flex flex-col items-end">
               <li className="pt-4">HTML ⁙</li>
@@ -44,14 +43,32 @@ export default function Home() {
         </div>
 
         <div className="my-15">
-          <ContainerL title='Tidligere erfaringer'>
+          <ContainerR title='Design'>
+
+            <ul className="flex flex-col items-end">
+              <li className="pt-4">Figma ⁙</li>
+              <ProgressBar />
+
+              <li className="pt-4">ProCreate ⁘</li>
+              <ProgressBar />
+
+              <li className="pt-4">Blender ⁙</li>
+              <ProgressBar />
+
+            </ul>
+
+          </ContainerR>
+        </div>
+
+        <div className="my-15">
+          <ContainerR title='Tidligere erfaringer'>
             <p>Dette kan f.eks. være en liste over tidligere arbeidsforhold.</p>
             <p>Kurs innen IT</p>
             <p>Kundeservice</p>
             <ul>
               <li></li>
             </ul>
-          </ContainerL>
+          </ContainerR>
         </div>
 
         <div>
