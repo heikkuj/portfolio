@@ -76,11 +76,11 @@ export default function Home() {
           </ContainerR>
         </div>
 
-        <div>
+        <div className="mb-5">
           <ContactBtn />
         </div>
         <footer className="flex h-[10vh] w-full p-4 bg-amber-800">
-          <p className="text-white">abc</p>
+          <p className="text-white"></p>
         </footer>
       </main>
     </div>
