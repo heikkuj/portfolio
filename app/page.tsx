@@ -3,6 +3,8 @@ import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
 import ContainerL from "@/components/container-left";
 import ProgressBar from "@/components/progress-bar";
+import ContainerFill from "@/components/container-fill";
+import ContactBtn from "@/components/contact-btn";
 
 export default function Home() {
   return (
@@ -13,10 +15,16 @@ export default function Home() {
         <Navbar />
 
         <div className="my-15">
+          <ContainerFill title={'Om meg'}>
+          Dette er et avsnitt om meg. Muligens. Må se mer på det.
+          </ContainerFill>
+        </div>
+
+        {/* <div className="my-15">
           <ContainerL title='Om meg'>
             Dette er et avsnitt om meg. Muligens. Må se mer på det.
           </ContainerL>
-        </div>
+        </div> */}
 
         <div>
           <ContainerR title='Kompetanse'>
@@ -51,7 +59,7 @@ export default function Home() {
         </div>
 
         <div>
-          <p>Kontakt meg-knapp</p>
+          <ContactBtn />
         </div>
         <footer className="flex h-[10vh] w-full p-4 bg-amber-800">
           <p className="text-white">abc</p>
