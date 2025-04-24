@@ -8,20 +8,20 @@ export default function Navbar() {
   return (
     <div>
         {/* Main nav */}
-        <div className='flex p-2 justify-self-end w-[70vw] bg-primary-2 justify-evenly rounded-l-lg text-primary-4 font-semibold'>
+        <div className='flex p-2 justify-self-end w-[70vw] bg-primary-2 justify-evenly rounded-l-lg text-black text-md font-extralight'>
 
             <Link href='/'>
-            <div className='text-lg'>CV</div></Link>
+            <div className=''>CV</div></Link>
 
             <Link href='/'>
-            <div className='text-lg'>Prosjekter</div></Link>
+            <div className=''>Prosjekter</div></Link>
 
-            <Link target='_blank' href='mailto:heikkuamo@gmail.com'>
-            <div className='text-lg'>Kontakt</div></Link>
+            <Link target='_blank' href='mailto:heikku.jensen@outlook.com'>
+            <div className=''>Kontakt</div></Link>
         </div>
 
         {/* Socials */}
-        <div className='flex p-2 justify-self-end w-[40vw] bg-primary-3 justify-evenly items-center text-2xl text-primary-4 rounded-l-lg'>
+        <div className='flex p-2 justify-self-end w-[40vw] bg-primary-3 justify-evenly items-center text-2xl text-black rounded-l-lg'>
             <Link href='https://github.com/heikkuj' target='_blank'><GrGithub /></Link>
             <Link href='/' target='_blank'><IoLogoLinkedin /></Link>
             <Link href='https://hjdevblog.vercel.app/'><Image src={'/blog.png'} width={30} height={0} alt='' /></Link>

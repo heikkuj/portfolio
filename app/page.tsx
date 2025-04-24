@@ -1,7 +1,7 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-import ContainerL from "@/components/container-left";
+// import ContainerL from "@/components/container-left";
 import ProgressBar from "@/components/progress-bar";
 import ContainerFill from "@/components/container-fill";
 import ContactBtn from "@/components/contact-btn";
@@ -17,14 +17,19 @@ export default function Home() {
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
 
-          <p className="px-2 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p>
+          {/* <p className="px-4 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p> */}
+
+          <p className="p-2 text-sm text-justify">Hei!  </p>
+          <p className="p-2 text-sm text-justify">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
+          <p className="p-2 text-sm text-justify">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
+          <p className="p-2 text-sm text-justify">Vi høres!  </p>
+
 
           </ContainerFill>
         </div>
 
-        <div>
-          <ContainerR title='Kompetanse'>
-            <p>Her kan det være en liste over språk, frameworks, osv.</p>
+        <div className="my-15">
+          <ContainerR title='Frontend'>
 
             <ul className="flex flex-col items-end">
               <li className="pt-4">HTML ⁙</li>
@@ -44,21 +49,38 @@ export default function Home() {
         </div>
 
         <div className="my-15">
-          <ContainerL title='Tidligere erfaringer'>
-            <p>Dette kan f.eks. være en liste over tidligere arbeidsforhold.</p>
+          <ContainerR title='Design'>
+
+            <ul className="flex flex-col items-end">
+              <li className="pt-4">Figma ⁙</li>
+              <ProgressBar />
+
+              <li className="pt-4">ProCreate ⁘</li>
+              <ProgressBar />
+
+              <li className="pt-4">Blender ⁙</li>
+              <ProgressBar />
+
+            </ul>
+
+          </ContainerR>
+        </div>
+
+        <div className="my-15">
+          <ContainerR title='Erfaringer'>
             <p>Kurs innen IT</p>
             <p>Kundeservice</p>
             <ul>
               <li></li>
             </ul>
-          </ContainerL>
+          </ContainerR>
         </div>
 
-        <div>
+        <div className="mb-5">
           <ContactBtn />
         </div>
         <footer className="flex h-[10vh] w-full p-4 bg-amber-800">
-          <p className="text-white">abc</p>
+          <p className="text-white"></p>
         </footer>
       </main>
     </div>
