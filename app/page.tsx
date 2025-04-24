@@ -16,15 +16,11 @@ export default function Home() {
 
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
-          Dette er et avsnitt om meg. Muligens. Må se mer på det.
+
+          <p className="px-2 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p>
+
           </ContainerFill>
         </div>
-
-        {/* <div className="my-15">
-          <ContainerL title='Om meg'>
-            Dette er et avsnitt om meg. Muligens. Må se mer på det.
-          </ContainerL>
-        </div> */}
 
         <div>
           <ContainerR title='Kompetanse'>
