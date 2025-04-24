@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
@@ -42,11 +41,17 @@ export default function Home() {
 
         <div className="my-15">
           <ContainerL title='Tidligere erfaringer'>
-            Dette kan f.eks. være en liste over tidligere arbeidsforhold.
+            <p>Dette kan f.eks. være en liste over tidligere arbeidsforhold.</p>
+            <p>Kurs innen IT</p>
+            <p>Kundeservice</p>
             <ul>
               <li></li>
             </ul>
           </ContainerL>
+        </div>
+
+        <div>
+          <p>Kontakt meg-knapp</p>
         </div>
         <footer className="flex h-[10vh] w-full p-4 bg-amber-800">
           <p className="text-white">abc</p>
