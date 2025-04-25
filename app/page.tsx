@@ -33,16 +33,16 @@ export default function Home() {
 
             <ul className="flex flex-col items-end">
               <li className="pt-4">HTML ⁙</li>
-              <ProgressBar />
+              <ProgressBar level={'50%'} />
 
               <li className="pt-4">CSS ⁘</li>
-              <ProgressBar />
+              <ProgressBar level={'50%'} />
 
               <li className="pt-4">Tailwind CSS ⁙</li>
-              <ProgressBar />
+              <ProgressBar level={'25%'} />
 
               <li className="pt-4">JavaScript ⁘</li>
-              <ProgressBar />
+              <ProgressBar level={'25%'} />
             </ul>
 
           </ContainerR>
@@ -53,13 +53,13 @@ export default function Home() {
 
             <ul className="flex flex-col items-end">
               <li className="pt-4">Figma ⁙</li>
-              <ProgressBar />
+              <ProgressBar level={"25%"}/>
 
               <li className="pt-4">ProCreate ⁘</li>
-              <ProgressBar />
+              <ProgressBar level={'100%'} />
 
               <li className="pt-4">Blender ⁙</li>
-              <ProgressBar />
+              <ProgressBar level={'25%'} />
 
             </ul>
 
