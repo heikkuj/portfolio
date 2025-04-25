@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="my-15">
-          <ContainerR title='Design'>
+          <ContainerR title='UI / UX'>
 
             <ul className="flex flex-col items-end">
               <li className="pt-4">Figma ⁙</li>
@@ -60,6 +60,28 @@ export default function Home() {
 
               <li className="pt-4">Blender ⁙</li>
               <ProgressBar level={'25%'} />
+
+            </ul>
+
+          </ContainerR>
+        </div>
+
+        <div className="my-15">
+          <ContainerR title='Admin'>
+
+            <ul className="flex flex-col items-end">
+
+              <li className="pt-4">Alma ⁘</li>
+              <ProgressBar level={'50%'} />
+
+              <li className="pt-4">Microsoft 365 ⁙</li>
+              <ProgressBar level={"75%"}/>
+
+              <li className="pt-4">Visma Business ⁘</li>
+              <ProgressBar level={'25%'} />
+
+              <li className="pt-4">Microflex NXMenu ⁙</li>
+              <ProgressBar level={"75%"}/>
 
             </ul>
 
