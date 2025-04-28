@@ -12,6 +12,7 @@
 
 :root {
   background-color: #f9f7f3;
+  min-width: 375px;
 }
 
 ::-webkit-scrollbar {
