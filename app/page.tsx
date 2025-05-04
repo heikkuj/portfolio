@@ -88,7 +88,21 @@ export default function Home() {
           </ContainerR>
         </div>
 
-        <div className="my-15">
+        <div>
+          <ContainerFill title={'Prosjekter'}>
+            <p>abc</p>
+          </ContainerFill>
+        </div>
+        
+        {/* Karusell */}
+        <div>
+          <div className="carousel carousel-center max-w-md space-x-4 p-4">
+            <div className="carousel-item">
+              <p>abf</p>
+            </div>
+          </div>
+        </div>
+        {/* <div className="my-15">
           <ContainerR title='Erfaringer'>
             <p>Kurs innen IT</p>
             <p>Kundeservice</p>
@@ -96,7 +110,7 @@ export default function Home() {
               <li></li>
             </ul>
           </ContainerR>
-        </div>
+        </div> */}
 
         <div className="mb-5">
           <ContactBtn />
