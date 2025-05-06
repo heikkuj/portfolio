@@ -1,10 +1,17 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-// import ContainerL from "@/components/container-left";
 import ProgressBar from "@/components/progress-bar";
 import ContainerFill from "@/components/container-fill";
 import ContactBtn from "@/components/contact-btn";
+import Autoplay from "embla-carousel-autoplay";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export default function Home() {
   return (
@@ -95,13 +102,16 @@ export default function Home() {
         </div>
         
         {/* Karusell */}
-        <div>
-          <div className="carousel carousel-center max-w-md space-x-4 p-4">
-            <div className="carousel-item">
-              <p>abf</p>
-            </div>
-          </div>
-        </div>
+        <Carousel plugins={[Autoplay({delay:3000,}),]}>
+          <CarouselContent>
+            <CarouselItem></CarouselItem>
+            <CarouselItem></CarouselItem>
+            <CarouselItem></CarouselItem>
+            <CarouselItem></CarouselItem>
+
+
+          </CarouselContent>
+        </Carousel>
         {/* <div className="my-15">
           <ContainerR title='Erfaringer'>
             <p>Kurs innen IT</p>
