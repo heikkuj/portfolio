@@ -1,14 +1,6 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-import ContainerFill from "@/components/container-fill";
-import ContactBtn from "@/components/contact-btn";
-import { 
-  ProgNovice,
-  ProgIntermediate,
-  ProgAdvanced,
-  ProgPro
- } from "@/components/progress-bar";
 
 export default function Home() {
   return (
@@ -79,11 +71,6 @@ export default function Home() {
           </ContainerR>
         </div>
 
-        <div className="my-15">
-          <ContainerFill title={'Prosjekter'}>
-            <p></p>
-          </ContainerFill>
-        </div>
 
         <div className="mb-5">
           <ContactBtn />
