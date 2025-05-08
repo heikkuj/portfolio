@@ -92,13 +92,9 @@ export default function Home() {
         </div>
 
         <div className="my-15">
-          <ContainerR title='Erfaringer'>
-            <p>Kurs innen IT</p>
-            <p>Kundeservice</p>
-            <ul>
-              <li></li>
-            </ul>
-          </ContainerR>
+          <ContainerFill title={'Prosjekter'}>
+            <p></p>
+          </ContainerFill>
         </div>
 
         <div className="mb-5">
