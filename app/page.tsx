@@ -1,10 +1,17 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-// import ContainerL from "@/components/container-left";
 import ProgressBar from "@/components/progress-bar";
 import ContainerFill from "@/components/container-fill";
 import ContactBtn from "@/components/contact-btn";
+import Autoplay from "embla-carousel-autoplay";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export default function Home() {
   return (
@@ -91,7 +98,24 @@ export default function Home() {
           </ContainerR>
         </div>
 
-        <div className="my-15">
+        <div>
+          <ContainerFill title={'Prosjekter'}>
+            <p>abc</p>
+          </ContainerFill>
+        </div>
+        
+        {/* Karusell */}
+        <Carousel plugins={[Autoplay({delay:3000,}),]}>
+          <CarouselContent>
+            <CarouselItem></CarouselItem>
+            <CarouselItem></CarouselItem>
+            <CarouselItem></CarouselItem>
+            <CarouselItem></CarouselItem>
+
+
+          </CarouselContent>
+        </Carousel>
+        {/* <div className="my-15">
           <ContainerR title='Erfaringer'>
             <p>Kurs innen IT</p>
             <p>Kundeservice</p>
@@ -99,7 +123,7 @@ export default function Home() {
               <li></li>
             </ul>
           </ContainerR>
-        </div>
+        </div> */}
 
         <div className="mb-5">
           <ContactBtn />
