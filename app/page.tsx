@@ -49,6 +49,19 @@ export default function Home() {
         {/* <div className="my-15">
           <ContainerR title='Frontend'>
 
+            <ul className="flex flex-col items-end">
+              <li className="pt-4">HTML ⁙</li>
+              <ProgressBar level={'50%'} />
+
+              <li className="pt-4">CSS ⁘</li>
+              <ProgressBar level={'50%'} />
+
+              <li className="pt-4">Tailwind CSS ⁙</li>
+              <ProgressBar level={'50%'} />
+
+              <li className="pt-4">JavaScript ⁘</li>
+              <ProgressBar level={'25%'} />
+
               <li className="pt-4">Python ⁙</li>
               <ProgressBar level={'25%'} />
             </ul>
