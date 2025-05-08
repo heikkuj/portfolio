@@ -1,10 +1,14 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-// import ContainerL from "@/components/container-left";
-import ProgressBar from "@/components/progress-bar";
 import ContainerFill from "@/components/container-fill";
 import ContactBtn from "@/components/contact-btn";
+import { 
+  ProgNovice,
+  ProgIntermediate,
+  ProgAdvanced,
+  ProgPro
+ } from "@/components/progress-bar";
 
 export default function Home() {
   return (
@@ -28,65 +32,49 @@ export default function Home() {
           </ContainerFill>
         </div>
 
-        <div className="my-15">
+        {/* FRONTEND SKILLS SECTION */}
+        <div>
+          <ContainerR title={'Frontend'}>
+            <div className="flex flex-col flex-wrap">
+
+              <ProgIntermediate title={'HTML'} />
+              <ProgIntermediate title={'CSS'} />
+              <ProgIntermediate title={'Tailwind CSS'} />
+              <ProgNovice title={'JavaScript'} />
+
+            </div>
+          </ContainerR>
+        </div>
+
+        {/* <div className="my-15">
           <ContainerR title='Frontend'>
-
-            <ul className="flex flex-col items-end">
-              <li className="pt-4">HTML ⁙</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">CSS ⁘</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">Tailwind CSS ⁙</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">JavaScript ⁘</li>
-              <ProgressBar level={'25%'} />
 
               <li className="pt-4">Python ⁙</li>
               <ProgressBar level={'25%'} />
             </ul>
 
           </ContainerR>
-        </div>
+        </div> */}
 
+        {/* UI / UX SKILLS SECTION */}
         <div className="my-15">
+
           <ContainerR title='UI / UX'>
-
-            <ul className="flex flex-col items-end">
-              <li className="pt-4">Figma ⁙</li>
-              <ProgressBar level={"25%"}/>
-
-              <li className="pt-4">ProCreate ⁘</li>
-              <ProgressBar level={'100%'} />
-
-              <li className="pt-4">Blender ⁙</li>
-              <ProgressBar level={'25%'} />
-
-            </ul>
+          <ProgNovice title={'Figma'} />
+          <ProgPro title={'ProCreate'} />
+          <ProgNovice title={'Blender'} />
 
           </ContainerR>
         </div>
 
+        {/* ADMIN SKILLS SECTION */}
         <div className="my-15">
           <ContainerR title='Admin'>
 
-            <ul className="flex flex-col items-end">
-
-              <li className="pt-4">Alma ⁘</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">Microsoft 365 ⁙</li>
-              <ProgressBar level={"75%"}/>
-
-              <li className="pt-4">Visma Business ⁘</li>
-              <ProgressBar level={'25%'} />
-
-              <li className="pt-4">Microflex NXMenu ⁙</li>
-              <ProgressBar level={"75%"}/>
-
-            </ul>
+            <ProgIntermediate title={'ALMA'} />
+            <ProgAdvanced title={'Office 365'} />
+            <ProgNovice title={'Visma Business'} />
+            <ProgPro title={'Microflex NXMenu'} />
 
           </ContainerR>
         </div>
