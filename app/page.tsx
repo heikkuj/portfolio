@@ -46,16 +46,6 @@ export default function Home() {
           </ContainerR>
         </div>
 
-        {/* <div className="my-15">
-          <ContainerR title='Frontend'>
-
-              <li className="pt-4">Python ⁙</li>
-              <ProgressBar level={'25%'} />
-            </ul>
-
-          </ContainerR>
-        </div> */}
-
         {/* UI / UX SKILLS SECTION */}
         <div className="my-15">
 
