@@ -1,10 +1,14 @@
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import ContainerR from "@/components/container-right";
-// import ContainerL from "@/components/container-left";
-import ProgressBar from "@/components/progress-bar";
 import ContainerFill from "@/components/container-fill";
 import ContactBtn from "@/components/contact-btn";
+import { 
+  ProgNovice,
+  ProgIntermediate,
+  ProgAdvanced,
+  ProgPro
+ } from "@/components/progress-bar";
 
 export default function Home() {
   return (
@@ -17,91 +21,60 @@ export default function Home() {
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
 
-          {/* <p className="px-4 text-sm text-justify">Opptatt av livslang læring, personvern og sikkerhet. En lagspiller med evne til å arbeide selvstendig. Motivert av egenlæring. Målrettet. Kreativ. Bakgrunn innen informasjonsvitenskap. </p> */}
-
-          <p className="p-2 text-sm text-justify">Hei!  </p>
-          <p className="p-2 text-sm text-justify">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
-          <p className="p-2 text-sm text-justify">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
-          <p className="p-2 text-sm text-justify">Vi høres!  </p>
+          <div className="">
+            <p className="p-2 text-sm text-center">Hei!  </p>
+            <p className="p-2 text-sm text-center">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
+            <p className="p-2 text-sm text-center">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
+            <p className="p-2 text-sm text-center">Vi høres!  </p>
+          </div>
 
 
           </ContainerFill>
         </div>
 
-        <div className="my-15">
-          <ContainerR title='Frontend'>
-
-            <ul className="flex flex-col items-end">
-              <li className="pt-4">HTML ⁙</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">CSS ⁘</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">Tailwind CSS ⁙</li>
-              <ProgressBar level={'25%'} />
-
-              <li className="pt-4">JavaScript ⁘</li>
-              <ProgressBar level={'25%'} />
-            </ul>
-
+        {/* FRONTEND SKILLS SECTION */}
+        <div>
+          <ContainerR title={'Frontend'}>
+            <ProgIntermediate title={'HTML'} />
+            <ProgIntermediate title={'CSS'} />
+            <ProgIntermediate title={'Tailwind CSS'} />
+            <ProgNovice title={'JavaScript'} />
           </ContainerR>
         </div>
 
+        {/* UI / UX SKILLS SECTION */}
         <div className="my-15">
+
           <ContainerR title='UI / UX'>
-
-            <ul className="flex flex-col items-end">
-              <li className="pt-4">Figma ⁙</li>
-              <ProgressBar level={"25%"}/>
-
-              <li className="pt-4">ProCreate ⁘</li>
-              <ProgressBar level={'100%'} />
-
-              <li className="pt-4">Blender ⁙</li>
-              <ProgressBar level={'25%'} />
-
-            </ul>
+            <ProgNovice title={'Figma'} />
+            <ProgPro title={'ProCreate'} />
+            <ProgNovice title={'Blender'} />
 
           </ContainerR>
         </div>
 
+        {/* ADMIN SKILLS SECTION */}
         <div className="my-15">
           <ContainerR title='Admin'>
 
-            <ul className="flex flex-col items-end">
-
-              <li className="pt-4">Alma ⁘</li>
-              <ProgressBar level={'50%'} />
-
-              <li className="pt-4">Microsoft 365 ⁙</li>
-              <ProgressBar level={"75%"}/>
-
-              <li className="pt-4">Visma Business ⁘</li>
-              <ProgressBar level={'25%'} />
-
-              <li className="pt-4">Microflex NXMenu ⁙</li>
-              <ProgressBar level={"75%"}/>
-
-            </ul>
+            <ProgIntermediate title={'ALMA'} />
+            <ProgAdvanced title={'Office 365'} />
+            <ProgNovice title={'Visma Business'} />
+            <ProgPro title={'Microflex NXMenu'} />
 
           </ContainerR>
         </div>
 
         <div className="my-15">
-          <ContainerR title='Erfaringer'>
-            <p>Kurs innen IT</p>
-            <p>Kundeservice</p>
-            <ul>
-              <li></li>
-            </ul>
-          </ContainerR>
+          <ContainerFill title={'Prosjekter'}>
+            <p className="p-2 text-center">Etter hvert kan du finne prosjektene mine her. Inntil videre kan du finne dem på GitHub!</p>
+          </ContainerFill>
         </div>
 
         <div className="mb-5">
           <ContactBtn />
         </div>
-        <footer className="flex h-[10vh] w-full p-4 bg-amber-800">
+        <footer className="flex h-[5vh] w-full p-4">
           <p className="text-white"></p>
         </footer>
       </main>
