@@ -2,10 +2,16 @@ import React from 'react'
 
 export default function ContainerFill({title, children}) {
   return (
-    <div className="flex flex-col mt-2 p-4 w-full h-auto items-center bg-primary-3 shadow-lg shadow-neutral-400">
-      <h1 className="text-lg text-primary-1">{title}</h1>
-      <div className='my-2 h-[1px] w-[60%] bg-primary-1' />
+    <div className="flex flex-col mt-2 p-4 md:px-10 w-full h-auto  bg-primary-3 shadow-lg shadow-neutral-300 items-center">
+
+      <div className='my-2 py-1 w-[80%] lg:w-[60%] md:w-[60%]'>
+        <h1 className="text-xl font-semibold text-black tracking-wider uppercase text-center">{title}</h1>
+      </div>
+
+      <div className='h-[1px] w-full border-1 border-black mt-1 mb-4' />
+
       {children}
+
   </div>
   )
 }

@@ -21,10 +21,12 @@ export default function Home() {
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
 
-          <p className="p-2 text-sm text-justify">Hei!  </p>
-          <p className="p-2 text-sm text-justify">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
-          <p className="p-2 text-sm text-justify">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
-          <p className="p-2 text-sm text-justify">Vi høres!  </p>
+          <div className="">
+            <p className="p-2 text-sm text-center">Hei!  </p>
+            <p className="p-2 text-sm text-center">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
+            <p className="p-2 text-sm text-center">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
+            <p className="p-2 text-sm text-center">Vi høres!  </p>
+          </div>
 
 
           </ContainerFill>
@@ -65,14 +67,14 @@ export default function Home() {
 
         <div className="my-15">
           <ContainerFill title={'Prosjekter'}>
-            <p></p>
+            <p className="p-2 text-center">Etter hvert kan du finne prosjektene mine her. Inntil videre kan du finne dem på GitHub!</p>
           </ContainerFill>
         </div>
 
         <div className="mb-5">
           <ContactBtn />
         </div>
-        <footer className="flex h-[10vh] w-full p-4 bg-amber-800">
+        <footer className="flex h-[5vh] w-full p-4">
           <p className="text-white"></p>
         </footer>
       </main>
