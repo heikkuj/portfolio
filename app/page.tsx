@@ -39,9 +39,12 @@ export default function Home() {
               <ProgressBar level={'50%'} />
 
               <li className="pt-4">Tailwind CSS ⁙</li>
-              <ProgressBar level={'25%'} />
+              <ProgressBar level={'50%'} />
 
               <li className="pt-4">JavaScript ⁘</li>
+              <ProgressBar level={'25%'} />
+
+              <li className="pt-4">Python ⁙</li>
               <ProgressBar level={'25%'} />
             </ul>
 
