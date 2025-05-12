@@ -32,13 +32,16 @@ export default function Home() {
           </ContainerFill>
         </div>
 
-        {/* FRONTEND SKILLS SECTION */}
+        {/* CODE STACK SECTION */}
         <div>
-          <ContainerR title={'Frontend'}>
+          <ContainerR title={'Code Stack'}>
+            <ProgIntermediate title={'React'} />
             <ProgIntermediate title={'HTML'} />
             <ProgIntermediate title={'CSS'} />
             <ProgIntermediate title={'Tailwind CSS'} />
             <ProgNovice title={'JavaScript'} />
+            <ProgNovice title={'Python'} />
+            <ProgNovice title={'PHP'} />
           </ContainerR>
         </div>
 
