@@ -34,14 +34,28 @@ export default function Home() {
 
         {/* CODE STACK SECTION */}
         <div>
-          <ContainerR title={'Code Stack'}>
-            <ProgIntermediate title={'React'} />
-            <ProgIntermediate title={'HTML'} />
-            <ProgIntermediate title={'CSS'} />
-            <ProgIntermediate title={'Tailwind CSS'} />
-            <ProgIntermediate title={'JavaScript'} />
-            <ProgNovice title={'Python'} />
-            <ProgNovice title={'PHP'} />
+          <ContainerR title={'KODE'}>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgIntermediate title={'React'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgIntermediate title={'HTML'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgIntermediate title={'CSS'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgIntermediate title={'Tailwind'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgIntermediate title={'JavaScript'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgNovice title={'Python'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgNovice title={'PHP'} />
+            </div>
           </ContainerR>
         </div>
 
@@ -49,9 +63,15 @@ export default function Home() {
         <div className="my-15">
 
           <ContainerR title='UI / UX'>
-            <ProgNovice title={'Figma'} />
-            <ProgPro title={'ProCreate'} />
-            <ProgNovice title={'Blender'} />
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgNovice title={'Figma'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgPro title={'ProCreate'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgNovice title={'Blender'} />
+            </div>
 
           </ContainerR>
         </div>
@@ -60,10 +80,18 @@ export default function Home() {
         <div className="my-15">
           <ContainerR title='Admin'>
 
-            <ProgIntermediate title={'ALMA'} />
-            <ProgAdvanced title={'Office 365'} />
-            <ProgNovice title={'Visma Business'} />
-            <ProgPro title={'Microflex NXMenu'} />
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgIntermediate title={'ALMA'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgAdvanced title={'Office 365'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgNovice title={'Visma Business'} />
+            </div>
+            <div className="w-[50%] md:w-[40%] lg:w-[30%]">
+              <ProgPro title={'Microflex'} />
+            </div>
 
           </ContainerR>
         </div>
