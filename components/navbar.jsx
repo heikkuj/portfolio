@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link href='/CV.pdf' download={'CV Heikku Jensen'}>
             <div className=''>CV</div></Link>
 
-            <Link href='/'>
+            <Link href='#projects'>
             <div className=''>Prosjekter</div></Link>
 
             <Link target='_blank' href='mailto:heikku.jensen@outlook.com'>
