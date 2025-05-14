@@ -96,7 +96,7 @@ export default function Home() {
           </ContainerR>
         </div>
 
-        <div className="my-15">
+        <div id="projects" className="my-15">
           <ContainerFill title={'Prosjekter'}>
             <p className="p-2 text-center">Etter hvert kan du finne prosjektene mine her. Inntil videre kan du finne dem på GitHub!</p>
           </ContainerFill>
