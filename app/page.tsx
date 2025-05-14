@@ -39,7 +39,7 @@ export default function Home() {
             <ProgIntermediate title={'HTML'} />
             <ProgIntermediate title={'CSS'} />
             <ProgIntermediate title={'Tailwind CSS'} />
-            <ProgNovice title={'JavaScript'} />
+            <ProgIntermediate title={'JavaScript'} />
             <ProgNovice title={'Python'} />
             <ProgNovice title={'PHP'} />
           </ContainerR>

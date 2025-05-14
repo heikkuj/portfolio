@@ -11,6 +11,7 @@ export function ProgNovice({ title }) {
             <div className="w-[25%] border-x-1" />
             <div className="w-[25%] border-l-1" />
         </div>
+        <p className="m-1 text-sm">Nybegynner</p>
     </div>
   )
 }
@@ -26,6 +27,7 @@ export function ProgIntermediate({ title }) {
             <div className="w-[25%] border-x-1" />
             <div className="w-[25%] border-l-1" />
         </div>
+        <p className="m-1 text-sm">Viderekommen</p>
     </div>
   )
 }
@@ -41,6 +43,7 @@ export function ProgAdvanced({ title }) {
             <div className="w-[25%] border-r-1 bg-primary-1" />
             <div className="w-[25%] border-l-1" />
         </div>
+        <p className="m-1 text-sm">Avansert</p>
     </div>
   )
 }
@@ -56,6 +59,7 @@ export function ProgPro({ title }) {
             <div className="w-[25%] border-x-1 bg-primary-1" />
             <div className="w-[25%] border-x-1 bg-primary-1" />
         </div>
+        <p className="m-1 text-sm">Ekspert</p>
     </div>
   )
 }
