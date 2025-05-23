@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-1: hsl(38, 100%, 49%);
-  --color-primary-2: hsl(38, 100%, 70%);
-  --color-primary-3: hsl(38, 100%, 90%);
+  --color-primary-1: hsl(280, 50%, 60%);
+  --color-primary-2: hsl(280, 55%, 75%);
+  --color-primary-3: hsl(280, 55%, 85%);
   --color-primary-4: hsl(30, 100%, 15%);
 
   --font-barcode: 'Libre Barcode 128 Text', sans-serif;
 }
 
 :root {
-  background-color: hsl(36, 33%, 97%);
+  background-color: hsl(0, 0%, 96%);
   min-width: 375px;
 }
 

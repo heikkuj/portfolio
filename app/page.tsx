@@ -24,7 +24,7 @@ export default function Home() {
           <div className="">
             <p className="p-2 text-sm text-center">Hei!  </p>
             <p className="p-2 text-sm text-center">Jeg er Heikku (/ˈheɪˌkʊ/), en 26-åring med stor interesse for koding og livslang læring - og mye annet.</p>
-            <p className="p-2 text-sm text-center">Akkurat nå står det ikke så mye informasjon her, men straks skal alt komme på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub eller WebDev-bloggen min, så kan du komme tilbake litt senere.</p>
+            <p className="p-2 text-sm text-center">Akkurat nå står det ikke så mye informasjon her, men straks kommer alt på plass. Inntil videre kan du ta en titt på prosjektene mine på GitHub, så kan du komme tilbake litt senere.</p>
             <p className="p-2 text-sm text-center">Vi høres!  </p>
           </div>
 
