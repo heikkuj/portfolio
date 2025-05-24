@@ -4,6 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+
   --color-primary-1: hsl(31, 94%, 61%);
   --color-primary-2: hsl(41, 87%, 75%);
   --color-primary-3: hsl(65, 66%, 82%);
