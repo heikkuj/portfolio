@@ -4,16 +4,25 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-primary-1: hsl(280, 50%, 60%);
-  --color-primary-2: hsl(280, 55%, 75%);
-  --color-primary-3: hsl(280, 55%, 88%);
-  --color-primary-4: hsl(30, 100%, 15%);
+
+  --color-primary-1: hsl(31, 94%, 61%);
+  --color-primary-2: hsl(41, 87%, 75%);
+  --color-primary-3: hsl(65, 66%, 82%);
+  --color-primary-4: hsl(10, 63%, 75%);
+
+  --color-light: #fff;
+  --color-accent-1: hsl(79, 74%, 88%);
+  --color-accent-2: hsl(79, 74%, 88%);
 
   --font-barcode: 'Libre Barcode 128 Text', sans-serif;
 }
 
+body {
+  padding-top: 10px;
+  background-color: #fff;
+}
+
 :root {
-  background-color: hsl(0, 0%, 96%);
   min-width: 375px;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
