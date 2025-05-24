@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { GrGithub } from "react-icons/gr";
 import { IoLogoLinkedin } from "react-icons/io5";
