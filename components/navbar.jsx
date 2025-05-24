@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { GrGithub } from "react-icons/gr";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -9,6 +8,8 @@ export default function Navbar() {
     <div>
         {/* Main nav */}
         <div className='flex p-2 justify-self-end w-[70vw] bg-primary-2 justify-evenly rounded-l-lg text-black text-md font-semibold'>
+          <div className='h-5 w-5 bg-accent-1'/>
+          <div className='h-5 w-5 bg-accent-2'/>
 
             <Link href='/CV.pdf' download={'CV Heikku Jensen'}>
             <div className=''>CV</div></Link>
