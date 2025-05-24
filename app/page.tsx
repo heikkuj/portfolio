@@ -10,6 +10,17 @@ import {
   ProgPro
  } from "@/components/progress-bar";
 
+ import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+import { Card, CardContent } from "@/components/ui/card"
+
+
 export default function Home() {
   return (
     <div className="h-screen w-full">
@@ -17,6 +28,33 @@ export default function Home() {
 
         <Header />
         <Navbar />
+
+        <div>
+          <Carousel opts={{ align: "start" }} className="w-full max-w-sm">
+            <CarouselContent>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                    ABC
+                  </CardContent>
+                </Card> 
+              </CarouselItem>
+
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                    DEF
+                  </CardContent>
+                </Card> 
+              </CarouselItem>
+              
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">GHI</CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">JKL</CarouselItem>
+            </CarouselContent>
+            <CarouselNext />
+            <CarouselPrevious />
+          </Carousel>
+        </div>
 
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
