@@ -29,33 +29,6 @@ export default function Home() {
         <Header />
         <Navbar />
 
-        <div>
-          <Carousel opts={{ align: "start" }} className="w-full max-w-sm">
-            <CarouselContent>
-              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                    ABC
-                  </CardContent>
-                </Card> 
-              </CarouselItem>
-
-              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                    DEF
-                  </CardContent>
-                </Card> 
-              </CarouselItem>
-              
-              <CarouselItem className="md:basis-1/2 lg:basis-1/3">GHI</CarouselItem>
-              <CarouselItem className="md:basis-1/2 lg:basis-1/3">JKL</CarouselItem>
-            </CarouselContent>
-            <CarouselNext />
-            <CarouselPrevious />
-          </Carousel>
-        </div>
-
         <div className="my-15">
           <ContainerFill title={'Om meg'}>
 
@@ -135,8 +108,48 @@ export default function Home() {
         </div>
 
         <div id="projects" className="my-15">
-          <ContainerFill title={'Prosjekter'}>
-            <p className="p-2 text-center">Etter hvert kan du finne prosjektene mine her. Inntil videre kan du finne dem på GitHub!</p>
+          
+
+          <ContainerFill title={'Utvalgte prosjekter'}>
+            <Carousel opts={{ align: "start" }} className="w-full max-w-sm">
+              <CarouselContent>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      ABC
+                    </CardContent>
+                  </Card> 
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      DEF
+                    </CardContent>
+                  </Card> 
+                </CarouselItem>
+                
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      GHI
+                    </CardContent>
+                  </Card> 
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      JKL
+                    </CardContent>
+                  </Card> 
+                </CarouselItem>
+              </CarouselContent>
+
+              <CarouselNext />
+              <CarouselPrevious />
+              
+            </Carousel>
           </ContainerFill>
         </div>
 
